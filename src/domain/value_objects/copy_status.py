@@ -12,7 +12,4 @@ class CopyStatus:
     """Value Object representing the status of a Copy."""
     status: CopyStatusEnum
     
-    def __post_init__(self):
-        """Validate the status after initialization."""
-        if not isinstance(self.status, CopyStatusEnum):
-            raise ValueError(f"Invalid status: {self.status}")
+  
