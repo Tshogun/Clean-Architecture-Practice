@@ -1,10 +1,14 @@
 from dataclasses import dataclass
 import uuid
 
+#   Note from Author: We can enter any specific Id formats as 
+#   per the domain requirements. Here, we are using UUID as 
+#   an example.
+
 @dataclass(frozen=True)
-class UserID:
-    """Value Object representing a User ID."""
-    user_id: str
+class CopyID:
+    """Value Object representing a Copy ID."""
+    copy_id: str
 
     def __post_init__(self):
         """Validate the UUID format after initialization."""

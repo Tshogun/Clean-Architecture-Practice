@@ -2,9 +2,9 @@ from dataclasses import dataclass
 import uuid
 
 @dataclass(frozen=True)
-class UserID:
-    """Value Object representing a User ID."""
-    user_id: str
+class ShelfID:
+    """Value Object representing a Shelf ID."""
+    shelf_id: str
 
     def __post_init__(self):
         """Validate the UUID format after initialization."""
