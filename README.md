@@ -3,4 +3,4 @@ I'm trying to learn clean architecture for industry standard code writing. I'm f
 
 ## Entity Mapping:
 
-<img src="./image/image.png" alt="Clean Architecture Practice">
+<img src="./images/image.png" alt="Clean Architecture Practice">
